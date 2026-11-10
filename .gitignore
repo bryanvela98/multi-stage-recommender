@@ -1,0 +1,41 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter and local configuration
+.ipynb_checkpoints/
+.jupyter/
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated artifacts
+data/
+artifacts/
+outputs/
+models/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# Reports and local exports
+*.pdf
+*.html
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
